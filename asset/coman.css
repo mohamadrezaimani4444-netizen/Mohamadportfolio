@@ -1,0 +1,148 @@
+
+.title-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-top-box{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.title-top{
+    color: white;
+    margin: 40px 0;
+
+}
+.title-top span{
+    color: #C778DD;
+}
+.title-top-box .title-line{
+    width: 300px;
+    margin-left: 10px;
+    height: 1px;
+    background-color: #C778DD;
+}
+
+.active{
+    color: white;
+}
+
+
+
+
+
+/*_____________________ scroll fixed ____________________*/
+
+    .scroll-fixed {
+        position: fixed;
+        z-index: 1001;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left:20px ;
+    }
+    .scroll-fixed .line{
+        height: 200px;
+        width: 1px;
+        background-color: #ABB2BF;
+    }
+    .scroll-fixed .socials2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .socials2 i{
+        padding: 5px 0;
+    }
+
+
+
+
+/*_____________________ menu ____________________*/
+
+menu{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 0 15% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    height: 80px;
+    background-color: #282C33;
+
+
+}
+
+
+.list-menu{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.list-item{
+padding: 10px;
+}
+.list-item a{
+    transition: .3s;
+}
+.list-item a:hover{
+    color: white;
+}
+
+
+.list-item span{
+    color: #C778DD;
+
+}
+.menu-left{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menu-left .img{
+    align-self: flex-end;
+    padding: 10px 5px 0 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*_____________________ footer ____________________*/
+
+footer{
+    border-top: 1px solid #ABB2BF;
+    padding: 20px 0;
+}
+.footer-top{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.footer-section{
+    width: 80%;
+    margin: auto;
+    
+}
+.img-footer{
+    padding: 13px 5px 0 0;
+}
+.deck-footer{
+    padding: 15px 0;
+    color: white;
+}
+.title-footer{
+    color: white;
+}
+.copyright{
+    text-align: center;
+    margin: 20px 0;
+}

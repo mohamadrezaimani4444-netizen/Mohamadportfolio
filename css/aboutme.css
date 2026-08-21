@@ -1,0 +1,133 @@
+
+
+/*_____________________ about me bottom ____________________*/
+
+.container-section-about-me{
+    padding-top: 60px;
+}
+.container-about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+
+}
+
+.about-me-section-left{
+width: 50%;
+}
+.about-me-section-left .deck{
+    margin: 20px 0;
+    font-size: .9rem;
+}
+.about-me-section-right{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    position: relative; 
+}
+
+
+.about-me-section-right .img1{
+    text-align: right;
+    position: absolute;
+    left: 300px;
+
+}
+
+.about-me-section-right img{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #C778DD;
+
+}
+
+.container-about-me .shape1{
+    position: absolute;
+    left: 910px;
+    top: 30px;
+    scale: .75;
+}
+.shape1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.container-section-about-me .btn{
+    padding: 5px 10px;
+    border: 1px solid #C778DD;
+    width: fit-content;
+    color: white;
+    transition: all .3s;
+    margin-bottom: 40px;
+}
+.container-section-about-me .btn:hover{
+    background-color: rgba(199, 120, 221 , .20);
+}
+
+.container-section-about-me .shape4{
+    position: absolute;
+    left: -30px;
+}
+
+/*_____________________ about me bottom ____________________*/
+
+.skills-columns-container{
+    display: flex;
+    gap: .5rem;
+    padding: 50px 0;
+
+}
+.skills-columns{
+    border: 1px solid #ABB2BF;
+    width: 19%;
+    height: fit-content;
+    
+}
+.skills-name{
+    padding: .5rem;
+    border: 1px solid #ABB2BF;
+}
+.skills-deck{
+    padding: .5rem;
+
+}
+/*_____________________ my fun facts ____________________*/
+
+.container-fun-facts{
+    display: flex;
+    height: 300px;    
+}
+
+.box-facts{
+height: fit-content;
+ display: flex;
+ flex-wrap: wrap;
+ width: 50%;
+gap: .5rem;
+}
+.fact-me{
+    border: #ABB2BF 1px solid;
+    padding: .3rem;
+    height: fit-content;
+}
+
+.shape-container{
+    width: 50%;
+    text-align: right;
+    position: relative;
+
+}
+.shape-container img{
+    display:-block;
+}
+
+.shape-container .img{
+    position: absolute;
+    top: -50px;
+    right: 180px;
+}
