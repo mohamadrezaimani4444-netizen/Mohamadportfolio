@@ -1,0 +1,61 @@
+
+/*_____________________ contact bottom ____________________*/
+
+.container-contact-me{
+    padding-top: 6cqw ;
+
+}
+.box-contact-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 60px 0;
+
+}
+.contact-section-left{
+    width: 50%;
+}
+.contact-title{
+    padding:5px 8px ;
+    color: white;
+}
+.socials .icon{
+    font-weight: 500;
+    padding:5px 8px ;
+}
+.deck-contact-me{
+    font-weight: 500;
+    width: 70%;
+}
+
+.contact-box{
+    border: 1px solid #ABB2BF;
+}
+
+
+.container-all-media{
+    padding: 20px 0 50px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.socials2{
+    display: flex;
+    position: relative;
+    gap: 1rem
+    ;
+
+}
+
+.socials2 h3{
+    font-weight: 400;
+
+}
+
+.shape4{
+   
+   
+    position: absolute;
+    right: 300px;
+    bottom: 80px;
+
+}

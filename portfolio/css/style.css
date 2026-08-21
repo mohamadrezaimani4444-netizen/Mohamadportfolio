@@ -1,0 +1,427 @@
+
+
+
+/*_____________________ scroll fixed ____________________*/
+
+    .scroll-fixed {
+        position: fixed;
+        z-index: 1001;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left:20px ;
+    }
+    .scroll-fixed .line{
+        height: 200px;
+        width: 1px;
+        background-color: #ABB2BF;
+    }
+    .scroll-fixed .socials2{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    .socials2 i{
+        padding: 5px 0;
+    }
+
+
+
+
+/*_____________________ menu ____________________*/
+
+menu{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    padding: 0 15% ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1000;
+    height: 80px;
+    background-color: #282C33;
+
+
+}
+
+
+.list-menu{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.list-item{
+padding: 10px;
+}
+.list-item a{
+    transition: .3s;
+}
+.list-item a:hover{
+    color: white;
+}
+
+.list-item span{
+    color: #C778DD;
+
+}
+.menu-left{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.menu-left .img{
+    align-self: flex-end;
+    padding: 10px 5px 0 0;
+}
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*_____________________ heder ____________________*/
+header{
+    padding: 20px 0;
+    display: flex;
+    height: 100dvh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+header .shape6{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+    border: 1px solid #ABB2BF;
+    left: 480px;
+    top: 650px;
+
+}
+.section-left .section-title span{
+    color: #C778DD;
+}
+.section-left .description{
+    margin: 20px 0;
+}
+.section-left .btn{
+    border: 1px solid #C778DD;
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+.section-right{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+}
+.section-right img{
+    width: auto;
+    height: auto;
+    text-align: right;
+
+}
+
+.section-right .shape{
+    position: absolute;
+    left: 340px;
+    top: 85px;
+    z-index: -1;
+}
+
+.section-right .deck{
+    border: 1px #ABB2BF solid;
+    text-align: center;
+    width: 420px;
+    padding: 7px 0 ;
+    display: inline-block;
+}
+
+.section-right .deck span{
+    color: white;
+}
+
+/*_____________________ training ____________________*/
+
+
+.container-training{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.training{
+    text-align: center;
+    border: 1px solid #ABB2BF;
+    display: inline-block;
+    padding: 20px;
+    margin: 60px 0;
+    position: relative;
+}
+.training .deck{
+    color: white;
+}
+.container-training .img1{
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+.container-training .img2{
+    position: absolute;
+    bottom: -20px;
+    right: 20px;
+
+}
+
+/*_____________________ projects top ____________________*/
+
+.projects-container {
+    width: 100%;
+    position: relative;
+}
+
+.title-projects{
+    color: white;
+}
+.title-line{
+    margin-left: 20px;
+    height: 1px;
+    width: 500px;
+    justify-content: space-between;
+    background-color: #C778DD;
+    
+}
+.title-right span{
+    color: white;
+}
+/*_____________________ projects bottom ____________________*/
+
+.projects-rows{
+    display: flex;
+    gap: 10px;
+}
+.projects-card-column{
+    width: 33.33%;
+    border: 1px solid #ABB2BF;
+    margin-bottom: 80px;
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.projects-card-column .learn{
+    border-bottom: 1px solid #ABB2BF;
+    padding: 5px;
+}
+.projects-card-column .projects-name{
+    padding: 10px;
+    font-weight: 400;
+    color: white;
+}
+
+.projects-card-column .project-deck{
+    padding: 10px;
+}
+.projects-card-column .grop-link{
+    padding: 10px;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.grop-link .btn1{
+    border: 1.5px solid #C778DD ;
+    padding: 5px 10px;
+    transition: .3s;
+} 
+.grop-link .btn1:hover{
+    background-color: rgba(199, 120, 221 , .20);
+}
+
+.grop-link .btn2{
+    border: 1.5px solid #ABB2BF ;
+    padding: 5px 10px;
+    margin-left: 1rem;
+    transition: .3s;
+    
+}
+.grop-link .btn2:hover{
+    background-color: rgba(171, 178, 191 ,.200);
+}
+.projects-container .shape3{
+    position: absolute;
+    left: -200px;
+}
+/*_____________________ skills ____________________*/
+
+
+.section-skills{
+    margin-bottom: 80px;
+
+}
+.skills-column-box{
+    display: flex;
+    gap: 1rem
+    
+}
+.skills-column{
+    display: flex;
+    flex-direction: column;
+    width: 33.33%;
+    gap: 1rem;
+
+}
+.skills-box{
+    border: 1px solid #ABB2BF;
+}
+
+.skills-name{
+    border-bottom: 1px solid #ABB2BF;
+    padding: .5rem;
+}
+.skills-item{
+    padding: .5rem;
+}
+
+/*_____________________ about me bottom ____________________*/
+
+
+.container-about-me{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    position: relative;
+
+}
+
+.about-me-section-left{
+width: 50%;
+}
+.about-me-section-left .deck{
+    margin: 20px 0;
+    font-size: .9rem;
+}
+.about-me-section-right{
+    width: 50%;
+    height: 100%;
+    text-align: right;
+    position: relative; 
+}
+
+
+.about-me-section-right .img1{
+    text-align: right;
+    position: absolute;
+    left: 300px;
+
+}
+
+.about-me-section-right img{
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #C778DD;
+
+}
+
+.container-about-me .shape1{
+    position: absolute;
+    left: 910px;
+    top: 30px;
+    scale: .75;
+}
+.shape1 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.container-section-about-me .btn{
+    padding: 5px 10px;
+    border: 1px solid #C778DD;
+    width: fit-content;
+    color: white;
+    transition: all .3s;
+    margin-bottom: 40px;
+}
+.container-section-about-me .btn:hover{
+    background-color: rgba(199, 120, 221 , .20);
+}
+
+.container-section-about-me .shape4{
+    position: absolute;
+    left: -30px;
+}
+
+/*_____________________ contact bottom ____________________*/
+
+
+.box-contact-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0 100px 0;
+
+}
+.contact-section-left{
+    width: 50%;
+}
+.contact-title{
+    padding:5px 8px ;
+    color: white;
+}
+.socials .icon{
+    font-weight: 500;
+    padding:5px 8px ;
+}
+.deck-contact-me{
+    font-weight: 500;
+    width: 70%;
+}
+
+.contact-box{
+    border: 1px solid #ABB2BF;
+}
+
+
+/*_____________________ footer ____________________*/
+
+footer{
+    border-top: 1px solid #ABB2BF;
+    padding: 20px 0;
+}
+.footer-top{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+.footer-section{
+    width: 80%;
+    margin: auto;
+    
+}
+.img-footer{
+    padding: 13px 5px 0 0;
+}
+.deck-footer{
+    padding: 15px 0;
+    color: white;
+}
+.title-footer{
+    color: white;
+}
+.copyright{
+    text-align: center;
+    margin: 20px 0;
+}
